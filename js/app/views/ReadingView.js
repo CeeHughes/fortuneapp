@@ -40,7 +40,10 @@ define(function(require) {
                 // Add a card to the gameboard
                 el.append(cardView.el);
             });
-    
+
+            setTimeout(function() {
+                el.fadeIn(500);
+            }, 2000);
         },
 
         // dealsCards: function(e) {

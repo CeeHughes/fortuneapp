@@ -18,10 +18,8 @@ define(function(require) {
             'click input[id="submit"]': 'getsMeaning'
         },
     
-        initialize: function() {
-            // this.model.get("imageSet");   
+        initialize: function() {   
             this.render();
-            console.log(this);
         },
     
         render: function() {            
