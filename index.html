@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Tatyana's Fortune Telling Cards</title>
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"></link>
+    <link rel="stylesheet" type="text/css" href="css/main.css"></link>
+
+  </head>
+
+  <body>
+
+    <div id="main">
+<!--       <aside id="appAbout" class="left-off-canvas-menu">
+        <h1>About this app</h1>
+        <p>Deal the cards and find matching images</p>
+        <p>Look up the meaning of the image</p>
+      </aside> -->
+      <h1>Tatyana's Fortune Telling Cards</h1>
+      <h3>Match both halves of an image to find out your future...</h3>
+      <br>
+      <div id="appDetails">
+        <script id="userInputTemplate" type="text/html">
+          <h3>Look up the meaning:</h3>
+          <form onsubmit="return getsUserInput()" method="post">
+            Image number: <input id="numberInput" type="text">
+            Position: <select id="positionInput">
+              <option value="downMeaning">&#8595</option>
+              <option value="rightMeaning">&#8594</option>
+              <option value="leftMeaning">&#8592</option>
+              <option value="upMeaning">&#8593</option>
+            </select>
+            <input id="submit" type="submit" value="Get meaning">
+          </form>
+        </script>
+      </div>
+      <br>
+      <div id="appContent"></div>
+      </aside>
+    </div>
+
+    <script type="text/javascript" data-main="js/main" src="js/lib/require.js"></script>
+
+  </body>
+
+</html>
