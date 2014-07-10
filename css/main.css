@@ -52,25 +52,21 @@ a, a:visited, a:hover, a:active {
 }
 
 .board {
-    width: 1025px;   
-    margin: 0 auto;
-    display: none;
+  width: 1025px;   
+  margin: 0 auto;
+  display: none;
 }
 
 .card {
-    width: 200px;
-    height: 200px;
-    margin-right: 5px;
-    margin-top: -4px;
-    -webkit-perspective: 600px;
-    -moz-perspective: 600px;
-    display: inline-block;
-    z-index: 1000;
-    box-shadow: 1px 1px 1px #888888;
-/*    -moz-transition: all 1s ease;
-    -webkit-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;*/
+  width: 200px;
+  height: 200px;
+  margin-right: 5px;
+  margin-top: -4px;
+  -webkit-perspective: 600px;
+  -moz-perspective: 600px;
+  display: inline-block;
+  z-index: 1000;
+  box-shadow: 1px 1px 1px #888888;
 }
 
 .rotate-1 {

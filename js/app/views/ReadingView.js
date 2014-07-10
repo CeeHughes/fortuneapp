@@ -42,8 +42,8 @@ define(function(require) {
             });
 
             setTimeout(function() {
-                el.fadeIn(500);
-            }, 2000);
+                el.fadeIn(700);
+            }, 3000);
         },
 
         // dealsCards: function(e) {

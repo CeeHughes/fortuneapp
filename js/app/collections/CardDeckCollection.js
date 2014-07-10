@@ -49,6 +49,21 @@ define(function(require) {
         shuffleCards: function() {
             this.reset(this.shuffle(), {silent: true});
         },
+
+        // shuffleCards: function(n) {
+        //     var i, j, k;
+        //     var temp;
+
+        //     // Shuffle the stack 'n' times.  HOW MANY TIMES IS IT IN THE BOOK?!
+
+        //     for (i = 0; i < n; i++)
+        //     for (j = 0; j < this.cards.length; j++) {
+        //         k = Math.floor(Math.random() * this.cards.length);
+        //         temp = this.cards[j];
+        //         this.cards[j] = this.cards[k];
+        //         this.cards[k] = temp;
+        //         }
+        //     }
     
         destroy: function() {
 

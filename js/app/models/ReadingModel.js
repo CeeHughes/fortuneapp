@@ -11,7 +11,6 @@ define(function(require) {
 
         initialize: function(options) {
             this.set("cardDeck", options.cardDeck);
-            // this.set("imageSet", options.imageSet)
         },
     
         destroy: function() {

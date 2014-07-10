@@ -165,7 +165,7 @@ define(function(require) {
                 generalMeaning: "The FOX is an animal that we associate with cunning and deceit.",
                 downMeaning: "You are being cunningly deceived.",
                 rightMeaning: "A falsity will be revealed.",
-                leftMeaning: "It isn;t wise to trust a new friendship.",
+                leftMeaning: "It isn't wise to trust a new friendship.",
                 upMeaning: "Be careful not to feel unwarranted trust toward some people."
             },
             {
@@ -260,7 +260,7 @@ define(function(require) {
                 imageNumber: 23,
                 imageName: "Mice",
                 periodOfInfluence: "immediate",
-                symbolFor:"loss or finding of material article",
+                symbolFor: "loss or finding of material article",
                 generalMeaning: "MICE are industrious little animals that exist on what they can forage or steal around the house.",
                 downMeaning: "You will find what you have lost.",
                 rightMeaning: "An unexpected discovery.",
@@ -408,7 +408,7 @@ define(function(require) {
                 downMeaning: "A strong friendship will be a support to you for your entire life.",
                 rightMeaning: "Love will weld you into one with the person you love.",
                 leftMeaning: "The handshake will weaken if you don't make the effort to strengthen it.",
-                upMeaning: "Your union threatens to come appart."
+                upMeaning: "Your union threatens to come apart."
             },
             {
                 imageNumber: 37,
